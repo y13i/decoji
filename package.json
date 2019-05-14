@@ -1,6 +1,6 @@
 {
   "name": "decoji",
-  "description": "Transform your alphanumeric string with Unicode supplemental characters.",
+  "description": "𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦 𝑦𝑜𝑢𝑟 𝒂𝒍𝒑𝒉𝒂𝒏𝒖𝒎𝒆𝒓𝒊𝒄 𝓼𝓽𝓻𝓲𝓷𝓰 𝓌𝒾𝓉𝒽 𝔘𝔫𝔦𝔠𝔬𝔡𝔢 𝕤𝕦𝕡𝕡𝕝𝕖𝕞𝕖𝕟𝕥𝕒𝕝 𝖈𝖍𝖆𝖗𝖆𝖈𝖙𝖊𝖗𝖘.",
   "version": "0.1.0",
   "author": {
     "name": "Yoriki Yamaguchi",
