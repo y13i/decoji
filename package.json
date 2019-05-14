@@ -1,7 +1,7 @@
 {
   "name": "decoji",
   "description": "Transform your alphanumeric string with Unicode supplemental characters.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Yoriki Yamaguchi",
     "email": "yorikiyamaguchi@gmail.com",
@@ -21,7 +21,7 @@
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
   "bin": {
-    "decoji": "bin/decoji.js"
+    "decoji": "bin/index.js"
   },
   "files": [
     "bin/index.js",
