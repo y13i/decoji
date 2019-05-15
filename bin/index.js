@@ -26,7 +26,7 @@ command
 
     if (command.list) {
       decoji.styles.forEach(style => {
-        console.log(`${style.name}: ${decoji.decoji(input, style.name)}`);
+        console.log(`${style.name}: ${decoji.decorate(input, style.name)}`);
       });
     } else {
       const styleName =
@@ -44,7 +44,7 @@ command
           console.log(`${from} -> ${to || ""}`)
         );
       } else {
-        console.log(decoji.decoji(input, styleName));
+        console.log(decoji.decorate(input, styleName));
       }
     }
   })

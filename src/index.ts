@@ -1,7 +1,7 @@
 import { Style, styles } from "./styles";
 export { styles, styleNames } from "./styles";
 
-export function decoji(string: string, styleName: Style["name"]): string {
+export function decorate(string: string, styleName: Style["name"]): string {
   const style = styles.find(s => s.name === styleName);
 
   if (!style) {

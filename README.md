@@ -68,7 +68,7 @@ decoji --mapping --style circled
 ## API
 
 ```js
-import { decoji } from "decoji";
+import { decorate } from "decoji";
 
 console.log(decoji("Lorem ipsum...", "mathematical-bold-fraktur"));
 ```
