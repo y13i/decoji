@@ -4,7 +4,7 @@
 
 const { Command } = require("commander");
 const packageMetadata = require("../package.json");
-const decoji = require("../dist/cjs");
+const { decorate, styles } = require("../dist/cjs");
 
 const command = new Command();
 
@@ -25,26 +25,33 @@ command
       "The quick brown fox jumps over the lazy dog. 1234567890";
 
     if (command.list) {
-      decoji.styles.forEach(style => {
-        console.log(`${style.name}: ${decoji.decorate(input, style.name)}`);
-      });
+      console.log(
+        JSON.stringify(
+          styles.reduce(
+            (acc, style) => ({
+              ...acc,
+              [style.name]: decorate(input, style.name)
+            }),
+            {}
+          ),
+          undefined,
+          2
+        )
+      );
     } else {
       const styleName =
-        command.style ||
-        decoji.styles[Math.floor(Math.random() * decoji.styles.length)].name;
+        command.style || styles[Math.floor(Math.random() * styles.length)].name;
 
       if (command.mapping) {
-        const style = decoji.styles.find(s => s.name === styleName);
+        const style = styles.find(s => s.name === styleName);
 
         if (!style) {
           throw "invalid style name.";
         }
 
-        Object.entries(style.mapping).forEach(([from, to]) =>
-          console.log(`${from} -> ${to || ""}`)
-        );
+        console.log(JSON.stringify(style.mapping, undefined, 2));
       } else {
-        console.log(decoji.decorate(input, styleName));
+        console.log(decorate(input, styleName));
       }
     }
   })
