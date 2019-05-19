@@ -53,7 +53,7 @@ $ decoji "Lorem ipsum dolor sit amet,"
 ```
 
 ```sh
-$ decoji --style mathematical-bold-script "Lorem ipsum dolor sit amet, ..."
+$ decoji --style mathematical-bold-script "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 𝓬𝓸𝓷𝓼𝓮𝓬𝓽𝓮𝓽𝓾𝓻 𝓪𝓭𝓲𝓹𝓲𝓼𝓬𝓲𝓷𝓰 𝓮𝓵𝓲𝓽, 𝓼𝓮𝓭 𝓭𝓸 𝓮𝓲𝓾𝓼𝓶𝓸𝓭 𝓽𝓮𝓶𝓹𝓸𝓻 𝓲𝓷𝓬𝓲𝓭𝓲𝓭𝓾𝓷𝓽 𝓾𝓽 𝓵𝓪𝓫𝓸𝓻𝓮 𝓮𝓽 𝓭𝓸𝓵𝓸𝓻𝓮 𝓶𝓪𝓰𝓷𝓪 𝓪𝓵𝓲𝓺𝓾𝓪.
 ```
 
