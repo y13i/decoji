@@ -36,7 +36,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "commander": "^3.0.0"
+    "commander": "^4.0.0"
   },
   "devDependencies": {
     "@types/jest": "24.0.17",
