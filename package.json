@@ -39,7 +39,7 @@
     "commander": "^7.0.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.16.7",
+    "@babel/preset-env": "7.16.8",
     "@types/jest": "27.4.0",
     "@types/node": "16.11.19",
     "@typescript-eslint/eslint-plugin": "5.9.1",
