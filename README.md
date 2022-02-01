@@ -34,6 +34,8 @@
 [![Codecov](https://codecov.io/gh/y13i/decoji/branch/master/graph/badge.svg)](https://codecov.io/gh/y13i/decoji)
 [![License](https://img.shields.io/npm/l/decoji.svg)](https://github.com/y13i/decoji/blob/master/package.json)
 
+[Demo](https://utils.y13i.app/decoji)
+
 ## CLI
 
 ```
