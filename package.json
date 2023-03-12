@@ -30,7 +30,7 @@
   "scripts": {
     "test": "jest",
     "build": "npm-run-all -s build:cjs build:esm build:types",
-    "build:cjs": "tsc --project . --module commonjs --target es5 --outDir ./dist/cjs",
+    "build:cjs": "tsc --project . --module commonjs --target es2015 --outDir ./dist/cjs",
     "build:esm": "tsc --project . --module esnext --target esnext --outDir ./dist/esm",
     "build:types": "tsc --project . --target esnext --declaration true --declarationMap true --emitDeclarationOnly --outDir ./dist/types",
     "lint": "eslint ."
