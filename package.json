@@ -41,7 +41,7 @@
   "devDependencies": {
     "@babel/preset-env": "7.22.10",
     "@types/jest": "29.5.3",
-    "@types/node": "18.17.4",
+    "@types/node": "18.17.5",
     "@typescript-eslint/eslint-plugin": "6.3.0",
     "babel-jest": "29.6.2",
     "eslint": "8.47.0",
