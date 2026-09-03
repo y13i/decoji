@@ -36,7 +36,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "commander": "^14.0.0"
+    "commander": "^15.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "7.29.2",
